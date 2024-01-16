@@ -5,7 +5,7 @@ containers:
   image: 'quay.io/annakrupnik-dev/helllo-world'
   tag: 'chart_v1'
 
-probes:
+Probes:
   readiness:
     httpGet:
       path: /health/readiness
