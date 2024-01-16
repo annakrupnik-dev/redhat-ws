@@ -1,4 +1,4 @@
-test: Healty
+test: Healthy
 deploy1: 
   ReplicaNumber: 1
 
