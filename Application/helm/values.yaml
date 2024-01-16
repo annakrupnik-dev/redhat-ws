@@ -29,5 +29,8 @@ Probes:
 volume:
   mount:
     path: /tmp/html
+argocd:
+  syncwave:
+     deployment: 5
 service:
   servicePort: 8080
