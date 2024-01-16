@@ -30,7 +30,8 @@ volume:
   mount:
     path: /tmp/html
 argocd:
-  syncwave:
-     deployment: 5
+  syncwave: 
+    deployment: 5
+    configmap: 1
 service:
   servicePort: 8080
